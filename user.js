@@ -1,5 +1,4 @@
 const Subscription = require('./subscription')
-const Video = require('./video')
 
 class User{
     constructor(channelName, channelId) {

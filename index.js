@@ -25,6 +25,10 @@ printSubscribedChannels(kaan)
 
 
 const video1 = new Video("Demo Video", "Education", "demonstration video", 15)
+const video2 = new Video("Demo Video 2", "Music", "music video", 5)
+
+kaan.uploadVideo(video1)
+kaan.uploadVideo(video2)
 
 function printVideoName(video){
     console.log(video.title)
@@ -43,15 +47,15 @@ printVideos(kaan)
 
 en az 2 tane sınıf
     +user
-    -video
+    +video
     +subscription
 en az 2 tane aksiyon
     +subscribe() 
-    -uploadVideo()
+    +uploadVideo()
 
-user/chanel
-video
-subscription
++user/chanel
++video
++subscription
 reply
 history
 feeling/rating
