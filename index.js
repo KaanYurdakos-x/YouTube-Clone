@@ -1,6 +1,6 @@
 const User = require('./user')
 const Video = require('./video')
-
+// this is a diff message for git
 const kaan = new User('Kaan', 1)
 const efe = new User('Efe', 2)
 const ahmet = new User('Ahmet', 3)
