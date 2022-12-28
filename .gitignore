@@ -1,2 +1,3 @@
 # ignore all .txt files - this is an example for learning purposes
 vscode
+*.txt
